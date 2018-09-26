@@ -3,8 +3,7 @@ def prime?(num)
     for n in 2...num do
       puts n
       if num % n == 0
-        false
-        break
+        return false
       end
     end
     true
