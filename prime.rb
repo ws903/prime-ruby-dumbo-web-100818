@@ -6,5 +6,6 @@ def prime?(num)
         break
       end
     end
+    true
   end
 end
